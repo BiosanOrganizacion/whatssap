@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-reminder-service",
+  "version": "1.0.0",
+  "description": "Microservicio Node.js para enviar recordatorios por WhatsApp usando whatsapp-web.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
